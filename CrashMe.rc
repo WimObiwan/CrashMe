@@ -1,0 +1,220 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CRASHME_DIALOG DIALOGEX 0, 0, 332, 260
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CrashMe"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Test Dr.Watson",IDC_STATIC,7,7,173,107
+    PUSHBUTTON      "Access violation",IDC_AccessViolation,15,21,77,13
+    PUSHBUTTON      "Assertion to DrWatson",IDC_AssertDump,97,37,77,13
+    PUSHBUTTON      "Unhandled C++ Except",IDC_UnHandledException,97,21,77,13
+    PUSHBUTTON      "DebugBreak",IDC_Assert2,15,53,77,13
+    PUSHBUTTON      "Phantom crash",IDC_Vanish,97,53,77,13
+    GROUPBOX        "Switch desktop:",IDC_STATIC,188,7,137,34
+    PUSHBUTTON      "Interactive",IDC_DESKINTERACTIVE,195,20,55,13
+    PUSHBUTTON      "HiddenDesktop",IDC_DESKHIDDEN,262,20,55,13
+    GROUPBOX        "Hard disk Free space Stress:",IDC_STATIC,7,134,173,53
+    LTEXT           "Directory:",IDC_STATIC,14,148,32,9
+    EDITTEXT        IDC_TEMPFILEDIR,55,148,118,12,ES_AUTOHSCROLL
+    LTEXT           "Size:",IDC_STATIC,13,167,18,8
+    EDITTEXT        IDC_TEMPFILESIZE,32,166,36,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "Mb",IDC_STATIC,71,168,11,8
+    PUSHBUTTON      "Allocate",IDC_TEMPFILEALLOC,84,165,31,14
+    PUSHBUTTON      "Delete Last File",IDC_DELETELAST,122,165,52,14
+    GROUPBOX        "CPU Stress:",IDC_STATIC,187,44,137,87
+    EDITTEXT        IDC_STRESSCPU,193,113,19,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,215,115,8,12
+    PUSHBUTTON      "Run!",IDC_STRESSCPURUN,223,113,29,12
+    GROUPBOX        "SNMP Trap:",IDC_STATIC,7,193,195,27
+    EDITTEXT        IDC_SNMPTRAPMSG,13,204,127,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Trap!",IDC_SNMPTRAP,145,205,30,12
+    PUSHBUTTON      "Get",IDC_SNMPTRAP2,177,205,20,12
+    GROUPBOX        "Time conversion from C-time:",IDC_STATIC,7,225,195,27
+    EDITTEXT        IDC_TIMEC,13,236,52,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "=>",IDC_TIMECONVERT,80,236,14,12
+    EDITTEXT        IDC_TIMETEXT,95,236,103,12,ES_AUTOHSCROLL
+    GROUPBOX        "Memory Stress:",IDC_STATIC,207,139,118,40
+    EDITTEXT        IDC_STRESSMEM,213,151,24,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,239,154,8,12
+    PUSHBUTTON      "Allocate!",IDC_STRESSMEMALLOC,261,150,54,12
+    LTEXT           "Static",IDC_STRESSMEMSTATUS,213,166,101,10
+    DEFPUSHBUTTON   "&Close",IDOK,275,238,50,14
+    CONTROL         "",IDC_STRESSCPULIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,193,57,124,50
+    PUSHBUTTON      "Software Assertion",IDC_Assert,15,37,77,13
+    PUSHBUTTON      "<=",IDC_TIMECONVERT2,66,236,14,12
+    PUSHBUTTON      "SetErrorMode (no dlg)",IDC_SetErrorMode,15,69,77,13
+    PUSHBUTTON      "install BugTrap",IDC_InstallBugTrap,97,69,77,13
+    PUSHBUTTON      "throw badalloc",IDC_ThrowBadAlloc,15,85,77,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "CrashMe MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "CrashMe"
+            VALUE "LegalCopyright", "Copyright (C) 2002"
+            VALUE "OriginalFilename", "CrashMe.EXE"
+            VALUE "ProductName", "CrashMe Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CRASHME_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Dutch (Belgium) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLB)
+#ifdef _WIN32
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH_BELGIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CrashMe.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CrashMe.ico"
+#endif    // Dutch (Belgium) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CrashMe.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
